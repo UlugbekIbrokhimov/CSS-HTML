@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>CSS box Model on buttons</title>
+    <style>
+      .stretch-button {
+        color: white;
+        background-color: green;
+        font-weight: bold;
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        cursor: pointer;
+        transition: padding-top 1s, padding-bottom 1s, padding-left 1s,
+          padding-right 1s;
+        margin-right: 100px;
+      }
+      .stretch-button:hover {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="stretch-button">Stretch</button>
+  </body>
+</html>
