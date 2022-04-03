@@ -1,0 +1,36 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+color: rgb(100, 100, 100);
+}
+.email{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.textbox{
+    width: 400px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(100, 100, 100);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.text{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.button{
+    color: white;
+    background-color: rgb(10, 102, 194);
+    border: none;
+     width: 400px;
+    border-radius: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
