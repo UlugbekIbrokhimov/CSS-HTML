@@ -1,5 +1,6 @@
 .thumbnail {
   width: 200px;
+  display: block;
 }
 .search-bar {
   font-size: 20px;
