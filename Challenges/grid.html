@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Practice</title>
+  </head>
+  <body>
+    <div style="display: grid; grid-template-columns: 100px 100px">
+      <div style="background-color: aqua">div 1</div>
+      <div style="background-color: lightpink">div 2</div>
+    </div>
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 50px 100px 200px 1fr;
+        margin-top: 30px;
+      "
+    >
+      <div style="background-color: aqua">div 1</div>
+      <div style="background-color: lightpink">div 2</div>
+      <div style="background-color: blue">
+        div 3
+        <p>Text</p>
+      </div>
+      <div style="background-color: lightpink">div 4 with 1fr</div>
+    </div>
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 2fr 100px;
+        margin-top: 15px;
+      "
+    >
+      <div style="background-color: blue">div 3</div>
+      <div style="background-color: aqua">1fr</div>
+      <div style="background-color: lightpink">2fr</div>
+    </div>
+  </body>
+</html>
